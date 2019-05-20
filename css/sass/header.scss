@@ -1,0 +1,29 @@
+header {
+    width: 100%;
+    nav {
+        background: $accent-color;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        align-content: center;
+
+        h1 {
+            font-family: 'Nunito', sans-serif;
+            text-transform: uppercase;
+            color: $nav-color;
+            font-size: 50px;
+            margin-right: auto;
+            margin-left: 50px;
+        }
+
+        a {
+            font-family: 'Nunito', sans-serif;
+           text-decoration: none;
+           color: $nav-color;
+           display: inline-block;
+           font-size: 40px;
+           margin-left: 50px;
+           
+        }
+    }
+}

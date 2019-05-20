@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Nunito&display=swap");
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+header {
+  width: 100%;
+}
+header nav {
+  background: #39934A;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  align-content: center;
+}
+header nav h1 {
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  color: #FFF;
+  font-size: 50px;
+  margin-right: auto;
+  margin-left: 50px;
+}
+header nav a {
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+  color: #FFF;
+  display: inline-block;
+  font-size: 40px;
+  margin-left: 50px;
+}
+
+section.cta {
+  width: 100%;
+  height: 569px;
+  background-image: url("/img/john-schnobrich-520023-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+section.cta div.text-cta {
+  width: 742px;
+  height: 342px;
+  background-color: rgba(57, 147, 74, 0.6);
+  margin-top: 5em;
+  margin-left: 4em;
+  padding: 20px;
+}
+section.cta div.text-cta h1 {
+  color: #FFF;
+  font-family: "Nunito", sans-serif;
+  font-size: 75px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+section.cta div.text-cta div.cta-button {
+  width: 300px;
+  background-color: #FFF;
+  color: #39934A;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  padding: 20px;
+  font-size: 40px;
+  border-radius: 50px;
+  margin-top: 1em;
+  margin-left: 5em;
+}
+
+/*# sourceMappingURL=index.css.map */
