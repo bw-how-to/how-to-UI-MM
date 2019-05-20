@@ -20,7 +20,7 @@ section {
                 h1 {
                     color: $nav-color;
                     font-family: 'Nunito', sans-serif;
-                    font-size: 75px;
+                    font-size: 5em;
                     font-weight: bold;
                     text-align: center;
                     margin-top: 20px;
@@ -34,13 +34,78 @@ section {
                         font-family: 'Nunito', sans-serif;
                         text-align: center;
                         padding: 20px;
-                        font-size: 40px;
+                        font-size: 2.60em;
                         border-radius: 50px;
                         margin-top: 1em;
-                        margin-left: 5em;
+                        margin-left: 4.7em;
+
+                        a {
+                            color: inherit;
+                            text-decoration: none;
+                        }
                     }
                 }
             }
         }
     }
+
+    &.features {
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 2.7em;
+        display: flex;
+        flex-flow: column;
+
+        .feature-left {
+
+            h2 {
+                font-size: 2em;
+                color: $accent-color;
+                font-family: 'Montserrat', sans-serif;
+                float: left;
+            }
+
+            p {
+                float: left;
+                width: 50%;
+                clear: both;
+            }
+
+            div {
+                .get-started {
+                    a {
+                    }
+                }
+            clear: both;
+            
+            }
+
+            img {
+                float: right;
+            }
+        }
+
+        .feature-right {
+            h2 {
+                font-size: 2em;
+                color: $accent-color;
+                font-family: 'Montserrat', sans-serif;
+                text-align: right;
+                float: right;
+            }
+
+            p {
+                float: right;
+                text-align: right;
+                width: 50%;
+                clear: both;
+            }
+
+            img {
+                float: left;
+            }
+
+        }
+    }
+
 }
