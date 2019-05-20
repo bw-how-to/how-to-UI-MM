@@ -1,0 +1,46 @@
+section {
+    &.cta {
+        width: 100%;
+        height: 569px;
+        background-image: url('/img/john-schnobrich-520023-unsplash.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+        div {
+            &.text-cta {
+                width: 742px;
+                height: 342px;
+                background-color: $floating-color;
+                margin-top: 5em;
+                margin-left: 4em;
+                padding: 20px;
+
+
+                h1 {
+                    color: $nav-color;
+                    font-family: 'Nunito', sans-serif;
+                    font-size: 75px;
+                    font-weight: bold;
+                    text-align: center;
+                    margin-top: 20px;
+                }
+
+                div {
+                    &.cta-button {
+                        width: 300px;
+                        background-color: $nav-color;
+                        color: $accent-color;
+                        font-family: 'Nunito', sans-serif;
+                        text-align: center;
+                        padding: 20px;
+                        font-size: 40px;
+                        border-radius: 50px;
+                        margin-top: 1em;
+                        margin-left: 5em;
+                    }
+                }
+            }
+        }
+    }
+}
