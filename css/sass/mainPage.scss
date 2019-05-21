@@ -19,6 +19,7 @@ section {
                 @media (max-width: 800px) {
                     width: 100%;
                     padding: 0;
+                    padding: 2em 0;
                     margin: 0 auto;
                 }
 
@@ -30,6 +31,14 @@ section {
                     font-weight: bold;
                     text-align: center;
                     margin-top: 20px;
+
+                    @media (max-width: 800px) {
+                        margin-bottom: 1em;
+                    }
+
+                    @media (max-width: 600px) {
+                        margin-bottom: .25em;
+                    }
                 }
 
                 div {
@@ -87,11 +96,46 @@ section {
                 float: left;
                 width: 40%;
                 clear: both;
+                margin-bottom: 0;
 
                 @media (max-width: 800px) {
                     clear: both;
                     width: 100%;
                     margin-bottom: 10em;
+                }
+                    
+            
+            }
+
+            .get-started {
+                width: 40%;
+                background: $accent-color;
+                color: $nav-color;
+                padding: .5em;
+                font-size: 2em;
+                font-family: 'Nunito', sans-serif;
+                text-align: center;
+                margin-top: 5em;
+                a {
+                    color: inherit;
+                    text-decoration: none;
+
+                }
+
+                @media (max-width: 800px) {
+                    display: none;
+                }
+
+                @media (max-width: 900px) {
+                    display: none;
+                }
+
+                @media (max-width: 1000px) {
+                    display: none;
+                }
+
+                @media (max-width: 1600px) {
+                    display: none;
                 }
             }
 
@@ -136,6 +180,7 @@ section {
                 @media (max-width: 800px) {
                     clear: both;
                     width: 100%;
+                    text-align: left;
                 }
             }
 
@@ -149,6 +194,7 @@ section {
                     width: 100%;
                     clear: both;
                     margin-bottom: 10em;
+                    text-align: left;
                 }
             }
 
@@ -157,10 +203,12 @@ section {
                 float: left;
                 margin-top: -10em;
 
-                .right-img {
-                    @media (max-width: 800px) {
-                        order: 1;
-                    }
+                @media (max-width: 800px) {
+                    width: 100%;
+                    clear: both;
+                    margin-top: -7em;
+                }
+
                 }
 
                 @media (max-width: 800px) {
@@ -170,6 +218,43 @@ section {
             }
         
         }
-    }
+    &.cta-lg {
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 4em;
 
-}
+        h2 {
+            font-size: 3em;
+            text-align: center;
+            color: $accent-color;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .get-started {
+            width: 40%;
+            margin: 0 auto;
+            color: $nav-color;
+            background: $accent-color;
+            font-family: 'Nunito', sans-serif;
+            text-align: center;
+            margin-top: 2em;
+            font-size: 2.75em;
+            padding: .3em 0;
+
+            a {
+                color: inherit;
+                text-decoration: none;
+            }
+
+            @media (max-width: 800px) {
+                width: 100%;
+            }
+
+            @media (max-width: 500px) {
+                width: 100%;
+            }
+        }
+    }
+    
+    
+    }
