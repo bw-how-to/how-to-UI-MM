@@ -5,15 +5,24 @@ header {
         display: flex;
         justify-content: space-around;
         padding: 10px;
-        align-content: center;
+        align-items: center;
+
+        @media (max-width: 800px) {
+           flex-flow: column; 
+        }
+
 
         h1 {
             font-family: 'Nunito', sans-serif;
             text-transform: uppercase;
             color: $nav-color;
-            font-size: 50px;
+            font-size: 4rem;
             margin-right: auto;
             margin-left: 50px;
+
+            @media (max-width: 800px) {
+                margin: 0 auto;
+            }
         }
 
         a {
