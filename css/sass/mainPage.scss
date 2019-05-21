@@ -16,6 +16,12 @@ section {
                 margin-left: 4em;
                 padding: 20px;
 
+                @media (max-width: 800px) {
+                    width: 100%;
+                    padding: 0;
+                    margin: 0 auto;
+                }
+
 
                 h1 {
                     color: $nav-color;
@@ -39,6 +45,12 @@ section {
                         margin-top: 1em;
                         margin-left: 4.7em;
 
+                        @media (max-width: 800px) {
+                            width: 90%;
+                            margin: 0 auto;
+
+                        }
+
                         a {
                             color: inherit;
                             text-decoration: none;
@@ -57,54 +69,106 @@ section {
         flex-flow: column;
 
         .feature-left {
-
+            margin-top: 5em;
+            
             h2 {
                 font-size: 2em;
                 color: $accent-color;
                 font-family: 'Montserrat', sans-serif;
                 float: left;
+
+                @media (max-width: 800px) {
+                    float: none;
+                    width: 100%;
+                }
             }
 
             p {
                 float: left;
-                width: 50%;
+                width: 40%;
                 clear: both;
-            }
 
-            div {
-                .get-started {
-                    a {
-                    }
+                @media (max-width: 800px) {
+                    clear: both;
+                    width: 100%;
+                    margin-bottom: 10em;
                 }
-            clear: both;
-            
             }
 
             img {
+                width: 50%;
                 float: right;
+                margin-top: -7em;
+
+                @media (max-width: 800px) {
+                    clear: both;
+                    width: 100%;
+                }
+
+                &.secondary {
+                    margin-top: -5em;
+
+                    @media (max-width: 800px) {
+                        float: none;
+                        clear: both;
+                    }
+                }
+
+                
             }
+        
         }
 
         .feature-right {
+            margin-top: 10em;
+
+            @media (max-width: 800px) {
+                margin-top: 2em;
+            }
+
             h2 {
                 font-size: 2em;
                 color: $accent-color;
                 font-family: 'Montserrat', sans-serif;
                 text-align: right;
                 float: right;
+
+                @media (max-width: 800px) {
+                    clear: both;
+                    width: 100%;
+                }
             }
 
             p {
                 float: right;
                 text-align: right;
-                width: 50%;
+                width: 40%;
                 clear: both;
+
+                @media (max-width: 800px) {
+                    width: 100%;
+                    clear: both;
+                    margin-bottom: 10em;
+                }
             }
 
             img {
+                width: 50%;
                 float: left;
-            }
+                margin-top: -10em;
 
+                .right-img {
+                    @media (max-width: 800px) {
+                        order: 1;
+                    }
+                }
+
+                @media (max-width: 800px) {
+                    clear: both;
+                    width: 100%;
+                }
+            }
+        
         }
     }
 
