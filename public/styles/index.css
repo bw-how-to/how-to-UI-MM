@@ -99,7 +99,7 @@ section.cta {
   background-position: center;
 }
 section.cta div.text-cta {
-  width: 100%;
+  width: 97.9%;
   height: 93%;
   background-color: rgba(82, 80, 80, 0.78);
   padding: 20px;
@@ -122,16 +122,19 @@ section.cta div.text-cta h1 {
   font-weight: bold;
   text-align: center;
   margin: 0 auto;
+  margin-top: 1.75em;
 }
 @media (max-width: 800px) {
   section.cta div.text-cta h1 {
     width: 100%;
     margin-bottom: 1em;
+    margin-top: 0;
   }
 }
 @media (max-width: 600px) {
   section.cta div.text-cta h1 {
     margin-bottom: 0.25em;
+    margin-top: 0;
   }
 }
 section.cta div.text-cta div.cta-button {

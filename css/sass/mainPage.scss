@@ -9,7 +9,7 @@ section {
         
         div {
             &.text-cta {
-                width: 100%;
+                width: 97.9%;
                 height: 93%;
                 background-color: $floating-color;
                 padding: 20px;
@@ -32,14 +32,17 @@ section {
                     font-weight: bold;
                     text-align: center;
                     margin: 0 auto;
+                    margin-top: 1.75em;
 
                     @media (max-width: 800px) {
                         width: 100%;
                         margin-bottom: 1em;
+                        margin-top: 0;
                     }
 
                     @media (max-width: 600px) {
                         margin-bottom: .25em;
+                        margin-top: 0;
                     }
                 }
 
