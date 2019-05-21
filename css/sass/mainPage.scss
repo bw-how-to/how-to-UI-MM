@@ -9,35 +9,40 @@ section {
         
         div {
             &.text-cta {
-                width: 742px;
-                height: 342px;
+                width: 97.9%;
+                height: 93%;
                 background-color: $floating-color;
-                margin-top: 5em;
-                margin-left: 4em;
                 padding: 20px;
+                margin-top: -1em;
 
                 @media (max-width: 800px) {
                     width: 100%;
-                    padding: 0;
+                    height:  89%;
                     padding: 2em 0;
                     margin: 0 auto;
+                    margin-top: -1em;
                 }
 
 
                 h1 {
+                    width: 30%;
                     color: $nav-color;
                     font-family: 'Nunito', sans-serif;
                     font-size: 5em;
                     font-weight: bold;
                     text-align: center;
-                    margin-top: 20px;
+                    margin: 0 auto;
+                    margin-top: 1.75em;
 
                     @media (max-width: 800px) {
+                        width: 100%;
                         margin-bottom: 1em;
+                        margin-top: 0;
                     }
 
                     @media (max-width: 600px) {
                         margin-bottom: .25em;
+                        margin-top: 0;
                     }
                 }
 
@@ -51,8 +56,8 @@ section {
                         padding: 20px;
                         font-size: 2.60em;
                         border-radius: 50px;
+                        margin: 0 auto;
                         margin-top: 1em;
-                        margin-left: 4.7em;
 
                         @media (max-width: 800px) {
                             width: 90%;

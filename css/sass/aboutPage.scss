@@ -1,0 +1,53 @@
+h1 {
+    color: $accent-color;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 1em;
+}  
+    
+   .about {
+        padding: 1em 3em;
+        width: 40%;
+        margin: 0 auto;
+    }
+div {
+    &.tabs {
+        width: 75%;
+        margin: 0 auto;
+        display: flex;
+        margin-bottom: 10em;
+
+        .tab-links {
+            width: 20%;
+            background: $nav-color;
+
+            .tab-link {
+                text-align: center;
+                padding: 1em;
+                font-family: 'Nunito', sans-serif;
+                font-size: 1.3em;
+                color: $accent-color;
+            }
+
+            .tab-link-selected {
+                border-left: 2px solid $accent-color;
+                color: black;
+            }
+        }
+
+        .tab-items {
+            width: 75%;
+            background: $nav-color;
+
+            .tab-item {
+                display: none;
+            }
+
+            .tab-item-selected {
+                display: block;
+                padding: 1em;
+            }
+        }
+    }
+}
