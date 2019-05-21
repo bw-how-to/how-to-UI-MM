@@ -74,7 +74,7 @@ header nav h1 {
   color: #FFF;
   font-size: 4rem;
   margin-right: auto;
-  margin-left: 50px;
+  margin-top: -0.1em;
 }
 @media (max-width: 800px) {
   header nav h1 {
@@ -99,31 +99,33 @@ section.cta {
   background-position: center;
 }
 section.cta div.text-cta {
-  width: 742px;
-  height: 342px;
-  background-color: rgba(57, 147, 74, 0.6);
-  margin-top: 5em;
-  margin-left: 4em;
+  width: 100%;
+  height: 93%;
+  background-color: rgba(82, 80, 80, 0.78);
   padding: 20px;
+  margin-top: -1em;
 }
 @media (max-width: 800px) {
   section.cta div.text-cta {
     width: 100%;
-    padding: 0;
+    height: 89%;
     padding: 2em 0;
     margin: 0 auto;
+    margin-top: -1em;
   }
 }
 section.cta div.text-cta h1 {
+  width: 30%;
   color: #FFF;
   font-family: "Nunito", sans-serif;
   font-size: 5em;
   font-weight: bold;
   text-align: center;
-  margin-top: 20px;
+  margin: 0 auto;
 }
 @media (max-width: 800px) {
   section.cta div.text-cta h1 {
+    width: 100%;
     margin-bottom: 1em;
   }
 }
@@ -141,8 +143,8 @@ section.cta div.text-cta div.cta-button {
   padding: 20px;
   font-size: 2.6em;
   border-radius: 50px;
+  margin: 0 auto;
   margin-top: 1em;
-  margin-left: 4.7em;
 }
 @media (max-width: 800px) {
   section.cta div.text-cta div.cta-button {
@@ -332,6 +334,53 @@ section.cta-lg .get-started a {
   section.cta-lg .get-started {
     width: 100%;
   }
+}
+
+h1 {
+  color: #39934A;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.about {
+  padding: 1em 3em;
+  width: 40%;
+  margin: 0 auto;
+}
+
+div.tabs {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 10em;
+}
+div.tabs .tab-links {
+  width: 20%;
+  background: #FFF;
+}
+div.tabs .tab-links .tab-link {
+  text-align: center;
+  padding: 1em;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.3em;
+  color: #39934A;
+}
+div.tabs .tab-links .tab-link-selected {
+  border-left: 2px solid #39934A;
+  color: black;
+}
+div.tabs .tab-items {
+  width: 75%;
+  background: #FFF;
+}
+div.tabs .tab-items .tab-item {
+  display: none;
+}
+div.tabs .tab-items .tab-item-selected {
+  display: block;
+  padding: 1em;
 }
 
 footer {
