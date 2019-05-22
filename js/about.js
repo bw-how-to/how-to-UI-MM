@@ -17,7 +17,7 @@ const aboutUs = {
     "UXDesigner": {
         "name": "Justin Stevens",
         "image": "./img/Justin-Stevens.png",
-        "about": "a couple sentences here",
+        "about": "Justin is a UX Designer based out of San Francisco. He has a background in film and enjoys telling stories through design.",
     },
     "IOSDeveloper": {
         "name": "Sameera Leola",
