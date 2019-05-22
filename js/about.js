@@ -40,3 +40,19 @@ const aboutUs = {
         "about": "a couple sentences here"
     }
 }
+ 
+const iosName = document.createElement('h1');
+iosName.classList.add('tab-item-title');
+iosName.textContent = `${aboutUs["IOSDeveloper"]["name"]}`;
+const iosImage = document.createElement('img');
+iosImage.setAttribute('src', `${aboutUs["IOSDeveloper"]["image"]}`)
+const iosAbout = document.querySelector(".tab-item[data-tab='5'] > .tab-item-content");
+const para = document.createElement('p');
+para.textContent = `${aboutUs["IOSDeveloper"]["about"]}`;
+
+iosAbout.prepend(iosName);
+iosAbout.prepend(iosImage);
+iosAbout.appendChild(para);
+
+
+// $(`<p>${aboutUs["IOSDeveloper"]["about"]}</p>`).appendTo('tab-item[data-tab=5] > tab-item-content');
