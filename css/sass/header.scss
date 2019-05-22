@@ -11,7 +11,10 @@ header {
            flex-flow: column; 
         }
 
+        @media (max-width: 500px) {
+            flex-flow: column;
 
+        }
         h1 {
             font-family: 'Nunito', sans-serif;
             text-transform: uppercase;
@@ -21,6 +24,10 @@ header {
             margin-top: -.1em;
 
             @media (max-width: 800px) {
+                margin: 0 auto;
+            }
+
+            @media (max-width: 500px) {
                 margin: 0 auto;
             }
         }

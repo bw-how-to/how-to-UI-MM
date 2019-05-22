@@ -68,6 +68,11 @@ header nav {
     flex-flow: column;
   }
 }
+@media (max-width: 500px) {
+  header nav {
+    flex-flow: column;
+  }
+}
 header nav h1 {
   font-family: "Nunito", sans-serif;
   text-transform: uppercase;
@@ -77,6 +82,11 @@ header nav h1 {
   margin-top: -0.1em;
 }
 @media (max-width: 800px) {
+  header nav h1 {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 500px) {
   header nav h1 {
     margin: 0 auto;
   }
@@ -362,6 +372,19 @@ div.tabs {
 div.tabs .tab-links {
   width: 20%;
   background: #FFF;
+  display: flex;
+  flex-flow: column;
+}
+@media (max-width: 800px) {
+  div.tabs .tab-links {
+    width: 20%;
+  }
+}
+@media (max-width: 500px) {
+  div.tabs .tab-links {
+    margin-left: -2em;
+    width: 40%;
+  }
 }
 div.tabs .tab-links .tab-link {
   text-align: center;
@@ -369,6 +392,12 @@ div.tabs .tab-links .tab-link {
   font-family: "Nunito", sans-serif;
   font-size: 1.3em;
   color: #39934A;
+  transition: ease-in-out 0.5s;
+}
+div.tabs .tab-links .tab-link:hover {
+  cursor: pointer;
+  background: #c0bebe;
+  transition: ease-in-out 0.5s;
 }
 div.tabs .tab-links .tab-link-selected {
   border-left: 2px solid #39934A;
@@ -383,7 +412,7 @@ div.tabs .tab-items .tab-item {
 }
 div.tabs .tab-items .tab-item-selected {
   display: block;
-  padding: 1em;
+  padding: 0 1em;
 }
 
 footer {
