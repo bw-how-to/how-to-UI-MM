@@ -37,7 +37,7 @@ const aboutUs = {
     "UIDev3": {
         "name": "Megan Miller",
         "image": "./img/Me.png",
-        "about": "a couple sentences here"
+        "about": "I’m Megan, a Web20 Full time student. I love to read, and play video games. I’m also super interested in design, and have been studying UX in my spare time."
     }
 }
 
