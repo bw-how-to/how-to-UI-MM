@@ -1,46 +1,135 @@
 header {
+    background: $accent-color;
     width: 100%;
-    nav {
-        background: $accent-color;
+    display: flex;
+    flex-direction: row;
+
+    a {
+        text-decoration: none;
+    }
+
+    @media (max-width: 800px) {
         display: flex;
-        justify-content: space-around;
-        padding: 10px;
-        align-items: center;
+        flex-flow: column;
+        white-space: nowrap;
+    }
 
+    @media (max-width: 500px) {
+        display: flex;
+        flex-flow: column;
+        white-space: nowrap;
+    }
+
+    span {
+        display: none;
+
+        &.navbar-toggle {
+            position: absolute;
+            top: 1em;
+            right: 1em;
+            cursor: pointer; 
+            color: $nav-color;
+            font-size: 1em;
+  
         @media (max-width: 800px) {
-           flex-flow: column; 
-        }
-
-        @media (max-width: 500px) {
-            flex-flow: column;
-
-        }
-        h1 {
-            font-family: 'Nunito', sans-serif;
-            text-transform: uppercase;
-            color: $nav-color;
-            font-size: 4rem;
-            margin-right: auto;
-            margin-left: 1em;
-            margin-top: -.1em;
-
-            @media (max-width: 800px) {
-                margin: 0 auto;
-            }
-
-            @media (max-width: 500px) {
-                margin: 0 auto;
-            }
-        }
-
-        a {
-            font-family: 'Nunito', sans-serif;
-            text-decoration: none;
-            color: $nav-color;
-            display: inline-block;
-            font-size: 40px;
-            margin-left: 50px;
-           
+            display: block;
+        
+            
         }
     }
+
+        @media (max-width: 500px) {
+            display: block;
+        }
+            @media (max-width: 1000px) {
+                display: block;
+            }
+            
+        }
+
+    h1 {
+        order: -1;
+        font-family: 'Nunito', sans-serif;
+        text-transform: uppercase;
+        color: $nav-color;
+        font-size: 4rem;
+        margin-right: auto;
+        margin-left: 1em;
+        margin-top: -.1em;
+    
+        @media (max-width: 800px) {
+            margin: 0 auto;
+        }
+    
+        @media (max-width: 1000px) {
+            margin: 0 auto;
+        }
+    
+        @media (max-width: 500px) {
+            margin: 0 auto;
+        }
+
+        
+    }
+    nav {
+            display: flex;
+            padding: 10px;
+            align-items: center;
+
+            @media (max-width: 800px) {
+                display: flex;
+                flex-flow: row;
+                
+                
+            }
+        
+        
+            @media (max-width: 1000px) {
+                display: flex;
+                flex-flow: row;
+                
+            }
+        
+            @media (max-width: 500px) {
+                display: flex;
+                flex-flow: column;
+                margin: 0 auto;
+                text-align: center;
+            }
+
+            a {
+                font-family: 'Nunito', sans-serif;
+                text-decoration: none;
+                color: $nav-color;
+                font-size: 40px;
+                margin-left: 50px;
+    
+                @media (max-width: 800px) {
+                    display: none;
+                    
+                    
+                }
+    
+    
+                @media (max-width: 1000px) {
+                    display: none;
+                    
+                }
+    
+                @media (max-width: 500px) {
+                    display: none;
+                    
+                    
+                }
+               
+            }
+            }
+    
+        }
+
+.active {
+    display: block;
+    width: 100%;
+
+   
 }
