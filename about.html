@@ -16,17 +16,23 @@
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
     crossorigin="anonymous"></script>
     <script src="./js/about.js" defer></script>
+    <script src="./js/toggle.js" defer></script>
     <title>About Us</title>
 </head>
 <body>
     <header>
-        <nav>
-            <h1 class="nav-head">H<i class="fal fa-play"></i>w-To</h1>
-            <a class="nav-links" href="#">About</a>
-            <a class="nav-links" href="#">Features</a>
-            <a class="nav-links" href="http://bw-how-to.netlify.com/login">Login</a>
-            <a class="nav-links" href="http://bw-how-to.netlify.com/register">Sign Up</a>
-        </nav>
+            <a href="index.html"><h1 class="nav-head">H<i class="fal fa-play"></i>w-To</h1></a>
+            <span class="navbar-toggle">
+                <i class="fas fa-bars"></i>
+            </span> 
+            <nav class="mobile">
+                
+                <a class="nav-links" href="about.html">About</a>
+                <a class="nav-links" href="#">Features</a>
+                <a class="nav-links" href="http://bw-how-to.netlify.com/login">Login</a>
+                <a class="nav-links" href="http://bw-how-to.netlify.com/register">Sign Up</a>
+            </nav>
+        </header>
     </header>
 
     <h1>About Us</h1>
@@ -46,7 +52,7 @@
             <div class="tab-link" data-tab="8">Web UI Developer 3</div>
         </div>
         <div class="tab-items">
-            <div class="tab-item" data-tab="1">
+            <div class="tab-item tab-item-selected" data-tab="1">
                 <div class="tab-item-content">
                 
                 </div>

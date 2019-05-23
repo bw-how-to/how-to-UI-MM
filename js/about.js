@@ -7,12 +7,12 @@ const aboutUs = {
     "FrontEndArchitect": {
         "name": "Josh Timmons",
         "image": "./img/Josh-Timmons.png",
-        "about": "a couple sentences here",
+        "about": "I am an aspiring software developer seeking a career in the software field. I am currently a full time student at Lambda School’s Full Stack Web Development course.",
     },
     "BackEndArchitect": {
         "name": "Tyler Foreman",
         "image": "./img/Tyler-Foreman.png",
-        "about": "a couple sentences here",
+        "about": "My name is Tyler I'm from Charlotte, NC. Some of my hobbies include Hiking, Cooking, Gardening , as well as working on cars and helping renovate houses.",
     },
     "UXDesigner": {
         "name": "Justin Stevens",
@@ -32,7 +32,7 @@ const aboutUs = {
     "UIDev2": {
         "name": "Kevin Sims",
         "image": "./img/Kevin-Sims.png",
-        "about": "a couple sentences here",
+        "about": "I'm Kevin, currently in Lambda Schools full time program. I enjoy playing video games, working out and playing basketball.",
     },
     "UIDev3": {
         "name": "Megan Miller",
