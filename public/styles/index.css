@@ -386,6 +386,12 @@ div.tabs .tab-links {
 @media (max-width: 800px) {
   div.tabs .tab-links {
     width: 20%;
+    margin-left: -2em;
+  }
+}
+@media (max-width: 600px) {
+  div.tabs .tab-links {
+    margin-left: -2em;
   }
 }
 @media (max-width: 500px) {
@@ -418,9 +424,46 @@ div.tabs .tab-items {
 div.tabs .tab-items .tab-item {
   display: none;
 }
+div.tabs .tab-items .tab-item .tab-item-content {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0 1em;
+}
+div.tabs .tab-items .tab-item .tab-item-content .tab-item-title {
+  margin-top: 2em;
+  margin-left: 1em;
+}
+@media (max-width: 800px) {
+  div.tabs .tab-items .tab-item .tab-item-content .tab-item-title {
+    margin-top: 0;
+    margin-left: 0;
+  }
+}
+@media (max-width: 500px) {
+  div.tabs .tab-items .tab-item .tab-item-content .tab-item-title {
+    margin-top: 0;
+    margin-left: 0;
+  }
+}
+div.tabs .tab-items .tab-item .tab-item-content img {
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 0.75em;
+}
+@media (max-width: 800px) {
+  div.tabs .tab-items .tab-item .tab-item-content img {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  div.tabs .tab-items .tab-item .tab-item-content img {
+    width: 100%;
+  }
+}
 div.tabs .tab-items .tab-item-selected {
   display: block;
-  padding: 0 1em;
 }
 
 footer {
