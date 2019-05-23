@@ -556,7 +556,7 @@ footer {
 }
 @media (max-width: 800px) {
   footer {
-    width: 93.6%;
+    width: 100%;
     padding: 2em 0;
   }
 }
@@ -567,7 +567,7 @@ footer {
 }
 @media (max-width: 1200px) {
   footer {
-    width: 90%;
+    width: 100%;
   }
 }
 
